@@ -7,7 +7,7 @@
 }
 
 /*Inicio de la portada*/
-
+ 
 .portada{
     max-height: 20%;
 }
@@ -264,7 +264,6 @@ td {
 
 .form__registration{
     width: 75%;
-    background-color: antiquewhite;
     padding: 20px;
 }
 
@@ -275,8 +274,8 @@ td {
     padding:10px 0; 
 }
 
-.form__address > input{
-    width:auto;
+.input__large--one{
+    width: 80%;
 }
 
 .form__ubication{
@@ -300,12 +299,61 @@ td {
     padding:10px 0;
 }
 
+.grade__option{
+    display: flex;
+}
+
+
 .parrafo__bold{
+    font-size: 20px;
     font-weight: bold;
     padding-top: 30px;
 }
 
-.label__bold{
-    font-weight: bold;
+.conten__bold{
     padding: 10px 0;
 }
+
+.label__bold{
+    font-weight: bold;
+}
+
+.form__school--near{
+    display: flex;
+}
+
+.form__school--one{
+    margin-right: 100px;
+}
+
+.form__school--one > div {
+    padding: 3px 0;
+}
+
+.form__margin--two{
+    padding: 30px 0;
+}
+
+.content__subtitle--parrafo{
+    padding-bottom: 30px;
+
+}
+
+.subtitle__form{
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.form_firma{
+    display: flex;
+    flex-direction: column;
+}
+
+.firma{
+    padding: 5px;
+}
+
+.input__large--two {
+    width: 40%;
+}
+

@@ -39,7 +39,7 @@
             <img class="section-logo-image" src="../assets/image/logo-migthy-ducks-01.png" alt="logo del equipo de hockey">
         </div>
        <div class="form__registration">
-        <form action="">
+        <form action="show_data.html" method="get">
             <div class="form__name">
                 <div>
                     <label for="first-name">Player´s First Name:</label>
@@ -52,7 +52,7 @@
             </div>
             <div class="form__address">
                 <label for="address">Street Address:</label>
-                <input type="text" id="address" name="address"/>
+                <input class="input__large--one" type="text" id="address" name="address"/>
             </div>
             <div class="form__ubication">
                 <div>
@@ -85,95 +85,137 @@
             
             <div class="form__grade">
                 <label for="grade">Grade: </label>
-                <div>
-                    <input type="radio" id="pre-school" name="grade" value="pre-school">
-                    <label for="pre-school">Pre-School</label>
-                    
-                    <input type="radio" id="one" name="grade" value="one">
-                    <label for="one">1st</label>
-                   
-                    <input type="radio" id="two" name="grade" value="two">
-                    <label for="two">2nd</label>
-                    
-                    <input type="radio" id="three" name="grade" value="three">
-                    <label for="three">3rd</label>
-                    
-                    <input type="radio" id="four" name="grade" value="four">
-                    <label for="four">4th</label>
-                   
-                    <input type="radio" id="five" name="grade" value="five">
-                    <label for="five">5th</label>
-                    
+                <div class="grade__option">
+                    <div>
+                        <input type="radio" id="pre-school" name="grade" value="pre-school">
+                        <label for="pre-school">Pre-School</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="one" name="grade" value="one">
+                        <label for="one">1st</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="two" name="grade" value="two">
+                        <label for="two">2nd</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="three" name="grade" value="three">
+                        <label for="three">3rd</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="four" name="grade" value="four">
+                        <label for="four">4th</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="five" name="grade" value="five">
+                        <label for="five">5th</label>
+                    </div>
                   </div>
               </div>
               <div>
                 <p class="parrafo__bold">Which elementary school do you live near?</p>
-                <div>
+                <div class="conten__bold">
                     <label for="closest-school" class="label__bold">Closest School</label>
                 </div>
-                    <div>
-                        <input type="radio" id="aj-katzenmaier" name="closest-school" value="aj-katzenmaier">
-                        <label for="aj-katzenmaier">AJ Katzenmaier</label>
-
-                        <input type="radio" id="marjorie-p-hart" name="closest-school" value="marjorie-p-hart">
-                        <label for="marjorie-p-hart">Marjorie P Hart</label>
-
-                        <input type="radio" id="greenbay" name="closest-school" value="greenbay">
-                        <label for="greenbay">Greenbay</label>
-
-                        <input type="radio" id="north-elementary" name="closest-school" value="north-elementary">
-                        <label for="north-elementary">North Elementary</label>
-
-                        <input type="radio" id="howard-a-yeager" name="closest-school" value="howard-a-yeager">
-                        <label for="howard-a-yeager">Howard A Yeager</label>
-                
-                        <input type="radio" id="south-elementary" name="closest-school" value="south-elementary">
-                        <label for="south-elementary">South Elementary</label>
+                <div class="form__school--near">
+                        <div class="form__school--one">
+                            <div>
+                                <input type="radio" id="aj-katzenmaier" name="closest-school" value="aj-katzenmaier">
+                                <label for="aj-katzenmaier">AJ Katzenmaier</label>  
+                            </div>
+                            <div>
+                                <input type="radio" id="greenbay" name="closest-school" value="greenbay">
+                                <label for="greenbay">Greenbay</label>
+                            </div>
+                            <div>
+                                <input type="radio" id="howard-a-yeager" name="closest-school" value="howard-a-yeager">
+                                <label for="howard-a-yeager">Howard A Yeager</label>
+                            </div>
+                        </div>
+                        <div  class="form__school--one">
+                            <div>
+                                <input type="radio" id="marjorie-p-hart" name="closest-school" value="marjorie-p-hart">
+                                <label for="marjorie-p-hart">Marjorie P Hart</label>
+                            </div>
+                            <div>
+                                <input type="radio" id="north-elementary" name="closest-school" value="north-elementary">
+                                <label for="north-elementary">North Elementary</label>
+                            </div>
+                            <div>
+                                <input type="radio" id="south-elementary" name="closest-school" value="south-elementary">
+                                <label for="south-elementary">South Elementary</label>
+                            </div>
+                        </div>
+                  </div>
+                  <div>
+                    <p  class="parrafo__bold">What Position(s) do you normally play? (chek all that apply)</p>
+                    <div class="form__margin--two">
+                        <div class="form__school--near">
+                            <div class="form__school--one">
+                                <div>
+                                    <input type="checkbox" id="forward" name="position" value="forward">
+                                    <label for="forward">Forward</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" id="defense" name="position" value="defense">
+                                    <label for="defense">Defense</label>
+                                </div>
+                            </div>
+                            <div class="form__school--one">
+                                <div>
+                                    <input type="checkbox" id="midfield" name="position" value="midfield">
+                                    <label for="midfield">Midfield</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" id="goalkeeper" name="position" value="goalkeeper">
+                                    <label for="goalkeeper">Goalkeeper</label>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-              </div>
+                  </div>
+                </div>
               <div>
-                <p>What Position(s) do you normally play? (chek all that apply)</p>
-                    <div>
-                        <input type="checkbox" id="forward" name="position" value="forward">
-                        <label for="forward">Forward</label>
-
-                        <input type="checkbox" id="midfield" name="position" value="midfield">
-                        <label for="midfield">Midfield</label>
-
-                        <input type="checkbox" id="defense" name="position" value="defense">
-                        <label for="defense">Defense</label>
-
-                        <input type="checkbox" id="goalkeeper" name="position" value="goalkeeper">
-                        <label for="goalkeeper">Goalkeeper</label>
+                <p  class="parrafo__bold">Uniform Size:</p>
+                <div class="form__margin--two">
+                    <div class="form__school--near">
+                        <div  class="form__school--one">
+                            <div>
+                                <input type="checkbox" id="youth-small" name="unirform-size" value="youth-small">
+                                <label for="youth-small">Youth Small</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="youth-medium" name="unirform-size" value="youth-medium">
+                                <label for="youth-medium">Youth Medium</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="youth-large" name="unirform-size" value="youth-large">
+                                <label for="youth-large">Youth Large</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="small" name="unirform-size" value="small">
+                                <label for="small">Small</label>
+                            </div>
+                        </div>
+                        <div  class="form__school--one">
+                            <div>
+                                <input type="checkbox" id="medium" name="unirform-size" value="medium">
+                                <label for="medium">Medium</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="large" name="unirform-size" value="large">
+                                <label for="large">Large</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="extra-large" name="unirform-size" value="extra-large">
+                                <label for="extra-large">Extra-Large</label>
+                            </div>
+                        </div>
                     </div>
-              </div>
-              <div>
-                <p>Uniform Size:</p>
-                <div>
-                    <input type="checkbox" id="youth-small" name="unirform-size" value="youth-small">
-                    <label for="youth-small">Youth Small</label>
-                    
-                    <input type="checkbox" id="youth-medium" name="unirform-size" value="youth-medium">
-                    <label for="youth-medium">Youth Medium</label>
-
-                    <input type="checkbox" id="youth-large" name="unirform-size" value="youth-large">
-                    <label for="youth-large">Youth Large</label>
-
-                    <input type="checkbox" id="small" name="unirform-size" value="small">
-                    <label for="small">Small</label>
-
-                    <input type="checkbox" id="medium" name="unirform-size" value="medium">
-                    <label for="medium">Medium</label>
-                    
-                    <input type="checkbox" id="large" name="unirform-size" value="large">
-                    <label for="large">Large</label>
-                    
-                    <input type="checkbox" id="extra-large" name="unirform-size" value="extra-large">
-                    <label for="extra-large">Extra-Large</label>
                 </div>
               </div>
-              <div>
-                <h3>Permission to Play</h3>
+              <div class="content__subtitle--parrafo">
+                <h3 class="subtitle__form">Permission to Play</h3>
                 <p>I, the parent or guardian of the minor registrant, agree that the registrant and I will abide by all the rules of
                     the Mighty Ducks Hockey League (MDHL). 
                     In recognizing the possibility of physical injury associated with hockey and in consideration for the "League"
@@ -184,11 +226,18 @@
                     <br> By entering your name below, I herebyagree and authorize the above.ln addition, by signing below,
                     l also acknowledge that I have read the cancellation policy and agree to its terms.</p>
               </div>
+              <div class="form__firma">
+                <div class="firma">
+                    <label for="parent">Parent/GuardianSignature</label>
+                    <input class="input__large--two" type="text" id="parent" name="parent">
+                </div>
+                <div class="firma">
+                    <label for="date">Date</label>
+                    <input type="date" id="date" name="date">
+                </div>
+              </div>
               <div>
-                <label for="parent">Parent/GuardianSignature</label>
-                <input type="text" id="parent" name="parent">
-                <label for="date">Date</label>
-                <input type="date" id="date" name="date">
+                <button type="submite">Send Form</button>
               </div>
         </form>
        </div>
