@@ -105,6 +105,7 @@ INICIO LOGO/SECTION */
     display: flex;
     flex-wrap: wrap; 
     width: 90%;
+    margin: auto;
 }
 
 
@@ -226,7 +227,7 @@ en contact.html*/
 
 table {
     text-align: left;
-    width: 50%;
+    width: 60%;
 }
 
 th {
@@ -235,6 +236,11 @@ th {
 
 td {
     padding: 10px;
+}
+
+.maps__info{
+    width: 100px;
+    height: 100px;
 }
 
 .container__info--extra{
